@@ -2,8 +2,8 @@
   "version": 1,
   "repository": "horizonbrief/horizonbrief.github.io",
   "site_url": "https://horizonbriefnews.com/",
-  "source_commit": "9083975129f7fc17be623fb88d10a6eb612a7e51",
-  "built_at": "2026-10-20T08:58:33.328944+00:00",
+  "source_commit": "91943bc0a42a99aebc19f9e7e7a7cdc0912b4b38",
+  "built_at": "2026-10-20T09:07:06.130481+00:00",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "404.html": "a8c7133fa927189479f05f4908e90b2259d6d3ccfa752a9a56c25be5cc632812",
@@ -29,7 +29,7 @@
     "articles/europe-research-social-dialogue-2026-10-17/index.html": "0a3d636ca340844c07ffd43ce2d0005d130789a7d08090a5286ad9eacdc0c7a6",
     "articles/european-commission-names-13-winners-of-2026-new-european-bauhaus-prizes-2026-10-18/index.html": "4ec5fe7f63774dce4d9bb4b6751da2c607dcc2c7cf52f9646cdbaa7fd79f51a6",
     "articles/integration-brief-second-2026-10-11/index.html": "c5be31163c701a9d5fe1d1300839aff68672277d16e08459a21a09bd073c44e3",
-    "articles/rays-take-al-pennant-set-up-first-title-world-series-against-brewers-2026-10-20/index.html": "db5f4d04a96082846a078771c41339eba072a41b35f41fe9c86193f0ca3352c4",
+    "articles/rays-take-al-pennant-set-up-first-title-world-series-against-brewers-2026-10-20/index.html": "a5839dab42c5a2704dd16de4f539ba81e373b6cf54acaf8420ae72d057329d4b",
     "articles/report-anthropic-and-nscale-in-talks-on-another-45b-compute-deal-2026-10-20/index.html": "7927ea7a745ec73256dbef341429ccb1c8c190ba558145af2302298a60bc4701",
     "assets/ad-layout.css": "4589e8739a62a14b44c3516e7998b6b3fd6fa0fe8ecc7af787bec2b3bc1f5b92",
     "assets/favicon.svg": "d38653a110bb27e3bec25496ffa5ba8841fac51fb85dfbddf46874e5bbfd927d",
@@ -49,9 +49,9 @@
     "index.html": "7120e448d332664d6e9cd44d6d07aa82f4ba68a8e3d43b3c098028be9ccba106",
     "privacy.html": "3c0a2ed91776678a1d6aa840fb87f24a553fb1d7f23be452eca6cff6326c9f17",
     "robots.txt": "0339b0a77bc89b1ff2c7d8fef1a54a91150fdfda54dee4cc120f52c1db6e1c23",
-    "search-index.json": "3db3807cce7359a3a866eea7291576ca3245e49b60a6c45bf9ab631319abfcc4",
+    "search-index.json": "007a743ae61bec03020f27753a08b976c9e8f22359df71b83c082af9edc19d2f",
     "search.html": "57312573d5e93fbd23b2431269f23a1eec0c7995c706d7b3285789ff342e9410",
-    "sitemap.xml": "645ca32352e7f93811f17d427e5477035168c318a8c9bc9a02b6d598fbdd6b19",
+    "sitemap.xml": "8a202a7cf034993033e3261a3e096c9f8c3fe1a3b2a435d88c4bef5272d62391",
     "terms.html": "b83f27598bbd71dedc7fa038a9dfa4e57f7cebc2245716cb4b570c7024ae6b35"
   }
 }
