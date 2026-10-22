@@ -2,8 +2,8 @@
   "version": 1,
   "repository": "horizonbrief/horizonbrief.github.io",
   "site_url": "https://horizonbriefnews.com/",
-  "source_commit": "55e636278c901475a037e2a30f7cd4f3370b8ad5",
-  "built_at": "2026-10-22T06:20:12.607747+00:00",
+  "source_commit": "ef3afb322cebb95730440389abd694f5927d084f",
+  "built_at": "2026-10-22T06:26:51.358690+00:00",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "404.html": "a8c7133fa927189479f05f4908e90b2259d6d3ccfa752a9a56c25be5cc632812",
@@ -32,7 +32,7 @@
     "articles/japan-s-mmx-probe-heads-for-phobos-on-sample-return-voyage-2026-10-20/index.html": "2f4821eb7395a07bba7402b1cda2e880175c006c0e59224afdd1e295ccc583a7",
     "articles/rays-take-al-pennant-set-up-first-title-world-series-against-brewers-2026-10-20/index.html": "8df4cb25870b7d9265ed8ddcc358203dcf6791e8cce690cbebae73d09174b7a5",
     "articles/report-anthropic-and-nscale-in-talks-on-another-45b-compute-deal-2026-10-20/index.html": "45d196b37952838477c9fa0b80f0aa4b017508bd32bf39e88c0ea4bbe3bf8195",
-    "articles/tesla-says-it-will-sell-cybercab-to-customers-by-end-of-year-techcrunch-rep-2026-10-22/index.html": "35246255286c1ed1b2edab7857f62f12dfd37af92d5daabc88fa0b877a8d5676",
+    "articles/tesla-says-it-will-sell-cybercab-to-customers-by-end-of-year-techcrunch-rep-2026-10-22/index.html": "a637cd667f90d7d775f2118f0025b952f68dcedfca5163b1b663ac642f18e6e3",
     "assets/ad-layout.css": "4589e8739a62a14b44c3516e7998b6b3fd6fa0fe8ecc7af787bec2b3bc1f5b92",
     "assets/favicon.svg": "d38653a110bb27e3bec25496ffa5ba8841fac51fb85dfbddf46874e5bbfd927d",
     "assets/main.js": "016d93f827f27f7e01761e13f855f09fec7dd1aa4b370af93d8d61053738c106",
@@ -51,9 +51,9 @@
     "index.html": "90194c4cb1f2818bc2bbaf521c44b0e503c623169d5c36f4472b7b48c1c318f7",
     "privacy.html": "3c0a2ed91776678a1d6aa840fb87f24a553fb1d7f23be452eca6cff6326c9f17",
     "robots.txt": "0339b0a77bc89b1ff2c7d8fef1a54a91150fdfda54dee4cc120f52c1db6e1c23",
-    "search-index.json": "f45264aa4325380df5c055b538f6e96bc117461150d5e0f10e13c38265917a7f",
+    "search-index.json": "5c12333b4ac55480e6a3b02872d9ee63e94bfeb55747bd5a0bc8381ca964f3e6",
     "search.html": "57312573d5e93fbd23b2431269f23a1eec0c7995c706d7b3285789ff342e9410",
-    "sitemap.xml": "178cd9e8c3b8d8918c3af7062d8436482587889db4b8d428fb08a302d8b50ccf",
+    "sitemap.xml": "9a18199a0cf3a9640261d3b40ac398899bf36e7c5da58d703a3b6ab6134e2332",
     "terms.html": "b83f27598bbd71dedc7fa038a9dfa4e57f7cebc2245716cb4b570c7024ae6b35"
   }
 }
