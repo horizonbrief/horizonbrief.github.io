@@ -94,3 +94,7 @@
   .ad-viewport-desktop { display: none; }
   .ad-viewport-mobile { display: block; }
 }
+/* Separate reported facts from interpretive sections without changing legacy stories. */
+.article-analysis{border-top:1px solid var(--line);margin-top:2rem;padding-top:1.5rem}
+.article-analysis h3{margin-top:1.6rem;font-size:1.15em;line-height:1.4}
+.article-copy .analysis-disclosure{font-size:.9em;font-style:italic}
