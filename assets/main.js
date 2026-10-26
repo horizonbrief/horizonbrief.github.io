@@ -42,6 +42,23 @@
       if (status) status.textContent = 'Copy is unavailable. Select the URL from your address bar.';
     }
   }));
+  const track = document.querySelector('[data-predictions]');
+  if (track) {
+    const controls = track.querySelector('[data-track-filters]');
+    const cards = [...track.querySelectorAll('[data-forecast-status]')];
+    const buttons = [...track.querySelectorAll('[data-track-status]')];
+    const show = status => {
+      if (!['ALL', 'OPEN', 'CONFIRMED', 'PARTLY_CONFIRMED', 'WRONG'].includes(status)) return;
+      let visible = 0;
+      cards.forEach(card => { card.hidden = status !== 'ALL' && card.dataset.forecastStatus !== status; if (!card.hidden) visible++; });
+      buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.trackStatus === status)));
+      track.querySelector('[data-track-count]').textContent = `${visible} forecast${visible === 1 ? '' : 's'} shown`;
+      track.querySelector('[data-track-empty]').hidden = visible !== 0;
+    };
+    buttons.forEach(button => button.addEventListener('click', () => show(button.dataset.trackStatus)));
+    controls.hidden = false;
+    show('ALL');
+  }
   const input = document.querySelector('#search-input');
   if (!input) return;
   const status = document.querySelector('#search-status');
