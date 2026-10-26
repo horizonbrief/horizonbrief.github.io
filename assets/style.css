@@ -98,3 +98,20 @@
 .article-analysis{border-top:1px solid var(--line);margin-top:2rem;padding-top:1.5rem}
 .article-analysis h3{margin-top:1.6rem;font-size:1.15em;line-height:1.4}
 .article-copy .analysis-disclosure{font-size:.9em;font-style:italic}
+
+/* Horizon Signal: visibly separate outlook, without changing historical articles. */
+.horizon-signal{margin-top:2.5rem;padding:clamp(1rem,3vw,2rem);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:.5rem;background:var(--paper);overflow-wrap:anywhere}
+.horizon-signal .signal-header h2{margin:.35rem 0}
+.horizon-signal h3{margin-top:1.8rem;font-size:1.15em;line-height:1.4}
+.horizon-signal h4{font-size:1em;line-height:1.5;margin:.7rem 0}
+.horizon-signal .signal-subtitle{margin:.25rem 0 1rem}
+.horizon-signal .signal-disclosure,.horizon-signal .forecast-window{font-size:.9em}
+.horizon-signal .signal-watch{padding-left:1.2rem}
+.horizon-signal .signal-watch li{margin:.7rem 0}
+.signal-forecasts{list-style:none;padding:0;display:grid;gap:1rem}
+.signal-forecast{border:1px solid var(--line);padding:1rem;border-radius:.3rem;min-width:0}
+.forecast-heading{display:flex;align-items:baseline;justify-content:space-between;gap:.5rem;flex-wrap:wrap}
+.forecast-probability{font-family:inherit;font-size:1.5rem;font-weight:700;font-variant-numeric:tabular-nums}
+.forecast-probability span{display:block;font-size:.7rem;font-weight:400}
+.forecast-status{font-family:inherit;font-size:.7rem;letter-spacing:.08em;border:1px solid var(--line);border-radius:1rem;padding:.2rem .6rem}
+.horizon-signal p:first-child:first-letter{float:none;font:inherit;line-height:inherit;margin:0;color:inherit}
