@@ -99,19 +99,40 @@
 .article-analysis h3{margin-top:1.6rem;font-size:1.15em;line-height:1.4}
 .article-copy .analysis-disclosure{font-size:.9em;font-style:italic}
 
-/* Horizon Signal: visibly separate outlook, without changing historical articles. */
-.horizon-signal{margin-top:2.5rem;padding:clamp(1rem,3vw,2rem);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:.5rem;background:var(--paper);overflow-wrap:anywhere}
-.horizon-signal .signal-header h2{margin:.35rem 0}
-.horizon-signal h3{margin-top:1.8rem;font-size:1.15em;line-height:1.4}
-.horizon-signal h4{font-size:1em;line-height:1.5;margin:.7rem 0}
-.horizon-signal .signal-subtitle{margin:.25rem 0 1rem}
-.horizon-signal .signal-disclosure,.horizon-signal .forecast-window{font-size:.9em}
-.horizon-signal .signal-watch{padding-left:1.2rem}
-.horizon-signal .signal-watch li{margin:.7rem 0}
-.signal-forecasts{list-style:none;padding:0;display:grid;gap:1rem}
-.signal-forecast{border:1px solid var(--line);padding:1rem;border-radius:.3rem;min-width:0}
-.forecast-heading{display:flex;align-items:baseline;justify-content:space-between;gap:.5rem;flex-wrap:wrap}
-.forecast-probability{font-family:inherit;font-size:1.5rem;font-weight:700;font-variant-numeric:tabular-nums}
-.forecast-probability span{display:block;font-size:.7rem;font-weight:400}
-.forecast-status{font-family:inherit;font-size:.7rem;letter-spacing:.08em;border:1px solid var(--line);border-radius:1rem;padding:.2rem .6rem}
+/* Horizon Signal V1: compact editorial presentation; data structure is frozen. */
+.horizon-signal{margin-top:2rem;padding:clamp(1rem,2.5vw,1.5rem);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:.5rem;background:var(--paper);overflow-wrap:anywhere}
+.horizon-signal .signal-header .section-kicker{font-size:.68rem;letter-spacing:.12em;margin:0 0 .35rem;color:var(--accent-dark)}
+.horizon-signal .signal-header h2{font-size:clamp(1.65rem,2.5vw,2rem);line-height:1.15;margin:0 0 .4rem}
+.horizon-signal p{font-size:1rem;line-height:1.65;margin:0 0 .7rem}
+.horizon-signal .signal-subtitle{font-size:.875rem;line-height:1.5;color:var(--muted);margin:0 0 .65rem}
+.horizon-signal .signal-disclosure{font-size:.8125rem;line-height:1.55;color:var(--muted);margin:0 0 .6rem}
+.horizon-signal>section{margin-top:1.15rem}
+.horizon-signal h3{font-size:1rem;font-weight:750;line-height:1.35;margin:0 0 .45rem}
+.horizon-signal h4{font-size:1rem;font-weight:750;line-height:1.45;margin:.65rem 0 .4rem}
+.horizon-signal .signal-watch{padding-left:1.1rem;margin:.35rem 0 0}
+.horizon-signal .signal-watch li{font-size:.95rem;line-height:1.55;margin:.35rem 0;padding-left:.15rem}
+.horizon-signal .signal-watch li::marker{color:var(--accent-dark)}
+.signal-forecasts{list-style:none;padding:0;margin:.7rem 0 0;display:grid;gap:.65rem}
+.signal-forecast{border:1px solid var(--line);padding:.9rem 1rem;border-radius:.35rem;min-width:0}
+.forecast-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:.6rem;flex-wrap:wrap}
+.forecast-probability{font-size:2rem;line-height:1.05;font-weight:750;font-variant-numeric:tabular-nums;letter-spacing:-.03em}
+.forecast-probability span{display:block;font-size:.6875rem;line-height:1.5;font-weight:500;letter-spacing:0;color:var(--muted);margin-top:.2rem}
+.forecast-status{font-size:.65rem;line-height:1.4;letter-spacing:.08em;color:var(--muted);background:var(--tile);border:1px solid var(--line);border-radius:1rem;padding:.2rem .5rem}
+.horizon-signal .forecast-reason{font-size:.9rem;line-height:1.6;margin:0}
+.horizon-signal .forecast-window{font-size:.8125rem;line-height:1.5;color:var(--muted);border-top:1px solid var(--line);padding-top:.55rem;margin:.65rem 0 0}
+.horizon-signal .forecast-window strong{font-weight:650;color:var(--ink)}
 .horizon-signal p:first-child:first-letter{float:none;font:inherit;line-height:inherit;margin:0;color:inherit}
+.sources li{overflow-wrap:anywhere}
+.article-aside{padding-top:160px}
+.aside-sticky{padding:22px}
+.aside-stat{font-size:20px;margin:12px 0 8px}
+.aside-sticky p{margin:.6rem 0;line-height:1.6}
+.aside-rule{margin:17px 0}
+@media screen and (max-width:900px){
+  .article-aside{display:block;padding-top:0}
+  .aside-sticky{position:static;padding:18px}
+}
+@media screen and (max-width:420px){
+  .horizon-signal{padding:.9rem}
+  .signal-forecast{padding:.85rem}
+}
