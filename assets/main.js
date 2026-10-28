@@ -86,7 +86,8 @@
     matches.slice(0, 60).forEach(p => {
       if (!/^articles\/[a-z0-9-]+\/index\.html$/.test(p.url)) return;
       const card = create('a', 'story-card', '');
-      card.href = new URL(p.url, new URL(input.dataset.index, location.href)).href;
+      const route = input.dataset.prettyUrls === 'true' ? p.url.replace(/index\.html$/, '') : p.url;
+      card.href = new URL(route, new URL(input.dataset.index, location.href)).href;
       card.append(create('span', 'story-type', `${p.category}${p.demo ? ' · SAMPLE' : ''}`),
         create('h2', 'search-title', p.title), create('p', '', p.description),
         create('span', 'source-label', p.source_label));
