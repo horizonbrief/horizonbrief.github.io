@@ -168,3 +168,5 @@
 @media(max-width:900px){.track-summary{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:720px){.track-record{padding-block:2rem 3rem}.track-list{grid-template-columns:1fr}.track-card{padding:1rem}}
 @media(max-width:380px){.track-summary{grid-template-columns:repeat(2,minmax(0,1fr))}}
+/* Lightweight event context; existing article typography and theme remain in use. */
+.story-page{max-width:58rem;padding-block:2rem}.story-link{padding:1rem 0;border-block:1px solid currentColor;margin-block:1rem}.story-link span{display:block;font-size:.8rem}.story-page h1{overflow-wrap:anywhere}.story-page a{overflow-wrap:anywhere}.story-timeline{padding-left:1.5rem}.story-timeline li{padding:1rem 0 1rem 1rem;border-left:2px solid currentColor}.developing-stories{padding-block:1.5rem}
